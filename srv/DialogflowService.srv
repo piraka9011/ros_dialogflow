@@ -1,0 +1,5 @@
+bool voice
+string text
+---
+bool success
+DialogflowResult result
