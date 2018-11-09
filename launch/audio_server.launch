@@ -1,4 +1,4 @@
 <launch>
     <rosparam command="load" file="$(find dialogflow_ros)/config/params.yaml" ns="/dialogflow_client"/>
-    <node name="dialogflow_client" pkg="dialogflow_ros" type="dialogflow_client.py" output="screen"/>
+    <node name="dialogflow_audio_server" pkg="dialogflow_ros" type="audio_server.py" output="screen"/>
 </launch>

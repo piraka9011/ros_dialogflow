@@ -1,3 +1,7 @@
-results_topic: "/dialogflow_results"
-text_topic: "/dialogflow_text"
+results_topic: "/dialogflow_client/results"
+requests_topic: "/dialogflow_client/requests"
 project_id: "frasier-robocup-qual"
+use_audio_server: false
+server_name: "127.0.0.1"
+port: 4444
+debug: false

@@ -8,7 +8,7 @@ from dialogflow_ros import DialogflowClient
 class DialogflowService:
     def __init__(self):
         self._dc = DialogflowClient()
-        self._service = rospy.Service('/dialogflow_client/service', DialogflowService, self._service_cb)
+        self._service = rospy.Service('/dialogflow_client/intent_service', DialogflowService, self._service_cb)
 
     def _service_cb(self, req):
         if req.voice:
